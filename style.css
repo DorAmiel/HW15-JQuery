@@ -1,0 +1,65 @@
+.ex-1-table {
+    border: 1px solid black;
+    text-align: center;
+}
+
+td {
+    width: 150px;
+    height: 50px;
+}
+
+#ex-3,
+#ex-4 {
+    text-align: center;
+    width: 800px;
+    height: 420px;
+}
+
+#ex-3-container,
+#ex-4-container {
+    display: flex;
+    justify-content: center;
+}
+
+.all-squares-ex3,
+.all-squares-ex4 {
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+}
+
+#row-1-ex3,
+#row-2-ex3,
+#row-3-ex3,
+#row-1-ex4,
+#row-2-ex4,
+#row-3-ex4 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.blue-square {
+    background: blue;
+    height: 100px;
+    width: 100px;
+}
+
+.red-square {
+    background: red;
+    height: 100px;
+    width: 100px;
+}
+
+#blue-squares-button {
+    width: 250px;
+    height: 40px;
+    color: white;
+    background-color: blue;
+}
+
+#red-squares-button {
+    width: 250px;
+    height: 40px;
+    color: white;
+    background-color: red;
+}
